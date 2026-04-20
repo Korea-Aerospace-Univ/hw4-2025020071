@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int answer=0, guess=0, count = 0;
+    int answer=0, guess=0, count=0;
     
     scanf("%d", &answer);
     
