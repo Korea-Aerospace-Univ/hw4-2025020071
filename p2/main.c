@@ -4,6 +4,7 @@ int main(void) {
     char ch = 0;
     
     scanf("%d", &n); 
+    getchar();
     
     int small = 0, countSmall = 0;    
     int number = 0, countNumber = 0;  
@@ -28,6 +29,10 @@ int main(void) {
    
             if (number > countNumber)
                 countNumber = number;
+        }
+        else {
+            small = 0;
+            number = 0;
         }
     }
     
