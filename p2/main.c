@@ -10,7 +10,7 @@ int main(void) {
     int number = 0, countNumber = 0;  
     
     for (int i = 0; i < n; i++) {
-        scanf(" %c", &ch);  
+        scanf("%c", &ch);  
         
 
         if (ch >= 'a' && ch <= 'z') {
